@@ -201,7 +201,7 @@
         width: 6vh;
         font-size: 0.75rem;
         font-family: var(--fonte-texto);
-
+        text-align: center;
     }
 
     .link1:hover, .link2:hover, .link3:hover{
