@@ -278,7 +278,7 @@
     }
 
     .imagem_rodape{
-        width: 10vh;
+        width: 15vh;
     }
 
     .qs{
@@ -292,4 +292,36 @@
         padding: 5%;
     }
 
+    .texto_rodape{
+        font-size: 0.6rem
+    }
+
+}
+
+@media (max-width: 550px){
+    .texto{
+        font-size: .5rem;
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh
+    }
+
+    .rede{
+        font-size: 1rem;
+    }
+
+    .img_redes{
+        height: 3vh;
+    }
+
+    .link1{
+        border-top-left-radius: 15px;
+    }
+
+    .nav__links{
+        font-size: .5rem;
+    }
 }
